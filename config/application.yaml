@@ -1,0 +1,29 @@
+app:
+  name: "ai-genai-data-pipelines-etl"
+  version: "1.0.0"
+
+llm:
+  provider: "anthropic"
+  model: "claude-sonnet-4-20250514"
+  temperature: 0.1
+  max_tokens: 4096
+
+extraction:
+  supported_formats: ["pdf", "email", "html", "csv", "json"]
+  max_document_size_mb: 10
+  batch_size: 10
+
+quality:
+  validation_enabled: true
+  completeness_threshold: 0.8
+  accuracy_threshold: 0.9
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: false
+
+logging:
+  level: "INFO"
+  format: "json"
+  file: "logs/app.log"

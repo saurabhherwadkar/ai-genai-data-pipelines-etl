@@ -1,0 +1,15 @@
+app:
+  name: "ai-genai-data-pipelines-etl"
+extraction:
+  batch_size: 50
+quality:
+  completeness_threshold: 0.9
+  accuracy_threshold: 0.95
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: false
+logging:
+  level: "INFO"
+  format: "json"
+  file: "logs/app-prod.log"

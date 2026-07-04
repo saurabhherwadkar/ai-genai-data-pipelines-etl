@@ -1,0 +1,14 @@
+app:
+  name: "ai-genai-data-pipelines-etl"
+extraction:
+  batch_size: 3
+quality:
+  completeness_threshold: 0.7
+api:
+  host: "127.0.0.1"
+  port: 8000
+  reload: true
+logging:
+  level: "DEBUG"
+  format: "text"
+  file: "logs/app-dev.log"
