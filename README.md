@@ -2,7 +2,7 @@
 
 LLM-powered ETL pipelines for converting unstructured data (PDFs, emails, web pages) into structured formats with quality validation using LLM judges.
 
-## Key Learning Objectives
+## Objectives
 
 - Understand how to design end-to-end ETL pipelines that leverage large language models for data extraction from unstructured sources
 - Learn schema-guided prompting techniques to convert raw text (PDFs, emails, HTML) into validated structured JSON
